@@ -1,0 +1,31 @@
+body{
+	background:url(../images/bg.jpg);
+}
+
+.map{
+	width: 780px;
+	height: 620px;
+	/* background: skyblue; */
+	margin: 50px auto;
+}
+.map > div{
+	position: relative;
+	float: left;
+	width: 180px;
+	height: 150px;
+	/* background-color: green; */
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.map > div  .hole{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+.map > div .mouse{
+	width: 70%;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 1;
+}
